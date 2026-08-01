@@ -1,7 +1,26 @@
 aid: rentmineonline
-name: rentmineonline
-description: rentmineonline is a company surfaced as a portfolio company of seedcamp and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rentmineonline.png
+name: RentMineOnline
+description: RentMineOnline was a San Francisco-based software-as-a-service company, founded in 2007,
+  that brought resident referral programs online for the multifamily rental housing industry by leveraging
+  leading social networking sites. Its platform sent community-branded emails to apartment residents and
+  paid them referral bonuses for recommending their buildings to friends across their social networks. In
+  2011 it was voted "Best New Company in Apartment Marketing." RentMineOnline was acquired by RealPage in
+  July 2012 and folded into RealPage's multifamily marketing portfolio; it no longer operates an independent
+  website or developer program. Surfaced as a portfolio company of Seedcamp and added to the API Evangelist
+  network as a stub, this profile was processed by the enrichment pipeline, which confirmed no public API
+  surface, developer documentation, or discovery artifacts exist for the defunct entity.
 url: https://raw.githubusercontent.com/api-evangelist/rentmineonline/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +28,23 @@ x-backed-by:
 - seedcamp
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: realpage
+x-acquired-date: '2012-07'
+x-founded: '2007'
+x-headquarters: San Francisco, California, United States
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Multifamily
+- Real Estate
+- Apartment Marketing
+- Social Marketing
+- Resident Referral
+- SaaS
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +54,14 @@ maintainers:
 common:
 - type: Website
   url: http://rentmineonline.com
+- type: LinkedIn
+  url: https://www.linkedin.com/company/rentmineonline
+- type: Crunchbase
+  url: https://www.crunchbase.com/organization/rentmineonline
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
+  notes: Defunct company acquired by RealPage July 2012; domain does not resolve for web (no A
+    record); no API surface, docs, or discovery artifacts found.
